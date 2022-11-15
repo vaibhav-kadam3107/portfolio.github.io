@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7d9c9412df.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/letter-v.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenue()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenue()"></i>
+        </nav>
+        <div class="header-text">
+            <p> <span>UI/UX</span> Designer</p>
+            <h1>Hi, I'm vaibhav kadam from Ambajogai pursuing my BTech in Computer Science Engineering from VIT, pune.</h1>
+        </div>
+    </div>
+ </div>
+ 
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/self22.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title" > About me</h1>
+                <p> My name is Vaibhav kadam, I’m 19 years old and I am currently in Second year graduating at VIT Pune with a BTech in Computer Science Engineering. While there, I learn a lot of theory in subjects like Data Science, Object Oriented Programming in JAVA, DataBase Management System, IOT, and more. I'm also a part of the Social, Welfare and Development Committee, Technocrate Committee, and maintained a GPA of 9.3 in my First Year. </p>
+                
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('languages')">Languages</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces.</li>
+                        <li><span>Web Development</span><br>Creating the websites using HTML,CSS,JS.</li>
+                        <li><span>BlockChain</span><br>Have a Basic konwledge about the BlockChain.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021 - current</span><br>BTech at VIT, Pune.</li>
+                        <li><span>2019 - 2021</span><br>Completed 11th and 12th from Dayanand Science college Latur.</li>
+                        <li><span>2018</span><br>Completed my schooling from ST.Anthony English School, Ambejogai.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="languages">
+                    <ul>
+                        <li><span>HTML/CSS</span></li>
+                        <li><span>C</span></li>
+                        <li><span>Python</span></li>
+                        <li><span>JAVA</span></li>
+                        <li><span>MySQL</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title" > My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Creating the Best and unique Design for your website accouding to your needs.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>Creating the Best and unique Design for your website/app accouding to your needs.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Creating the Best and unique Design for your moblie application accouding to your needs.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+ </div>
+
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title" > My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work1.jpg" >
+                <div class="layer">
+                    <h3>Chiktsa a COVID Assistant</h3>
+                    <p>Chiktsa is a covid assistant website which will guide the patient fo covid for their medication.</p>
+                    <a href="https://drive.google.com/drive/folders/1Sic-5Zi7xLsdU7k-ADGv9eJL1pI57B86?usp=sharing" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work2.jpg" >
+                <div class="layer">
+                    <h3>SW&D App Design</h3>
+                    <p>This is the app design made by me for SW&D committee in my college.</p>
+                    <a href="https://drive.google.com/drive/folders/1rTHOmfL3eauGi2ytqeZxPJhM_LnWlbB7?usp=sharing" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+ </div>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>vaibhav.kadam21@vit.edu</p>
+                <p><i class="fa-solid fa-square-phone"></i>+91 9022399146</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/vaibhav_kadam_3107?r=nametag" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/vaibhav-kadam3107/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://twitter.com/Vaibhav66118693?t=lTXj4ondDMfQECH_W9oWXA&s=09" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100047048112992" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <a href="images/Resume.png" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email " required >
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Vaibhav Kadam , Created by Vaibhav.</p> 
+     </div>
+</div>
+
+
+ <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname) {
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+ </script>
+
+ <script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenue(){
+        sidemenu.style.right = "0";
+    }
+    function closemenue(){
+        sidemenu.style.right = "-200px";
+    }
+ </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwpb5a9wiVX9IGJeY7_XVsrVqDMgq7HfYdi2G7lHZYOwh4aRGPlTzGzgRWQPSUinCfs/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  
+</body>
+</html>
